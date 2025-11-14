@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<!-- ========= BASIC SEO ========= -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hargaysa Meat Company | Dalabka Hilibka Adhi, Geel & Lo' | Delivery Degdeg ah</title>
+
+<meta name="description" content="Dalbo hilib nadiif ah oo tayo sare leh: Hilibka Adhiga, Geela iyo Lo'da — Qiimo jaban, adeeg degdeg ah, iyo gaarsiinta Hargaysa. Hargaysa Meat Company - Dalabka hilibka ugu fudud!">
+
+<meta name="keywords" content="hilib, hilib adhi, hilib geel, hilib lo', meat delivery hargaysa, hilib hargaysa, hargaysa meat company, hilib online somaliland, dalbo hilib, adhi geel lo'">
+
+<meta name="author" content="Hargaysa Meat Company">
+
+<link rel="canonical" href="https://hmc.com/">
+
+<link rel="icon" type="image/png" href="hmc.png">
+
+<!-- ========= SOCIAL MEDIA / OPEN GRAPH ========= -->
+<meta property="og:title" content="Hargaysa Meat Company — Dalabka Hilibka Online">
+<meta property="og:description" content="Dalbo hilib adhi, geel, ama lo' — nadaafad, tayo iyo gaarsiinta degdeg ah. Adeeg online ah oo ku shaqeeya WhatsApp.">
+<meta property="og:image" content="https://yourdomain.com/hmc-preview.jpg">
+<meta property="og:url" content="https://hmc.com/">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hargaysa Meat Company — Dalabka Hilibka Online">
+<meta name="twitter:description" content="Dalbo hilib cusub oo nadiif ah, qiimo jaban & delivery degdeg ah — Hargeysa.">
+<meta name="twitter:image" content="https://yourdomain.com/hmc-preview.jpg">
+
+<!-- ========= MOBILE FRIENDLY ========= -->
+<meta name="theme-color" content="#d32f2f">
+
+<!-- ========= LOCAL SEO ========= -->
+<meta name="geo.region" content="SO-SL">
+<meta name="geo.placename" content="Hargaysa">
+<meta name="geo.position" content="9.56;44.06">
+<meta name="ICBM" content="9.56, 44.06">
+
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="hmc.png" alt="main-logo" width="50px">
+       </i> Hargaysa Meat Company</h1>
+        </div>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="#products"><i class="fa-solid fa-cart-shopping"></i> Dalbo Hilibka</a>
+            <a href="#photos"><i class="fa-solid fa-image"></i> Sawirrada</a>
+            <a href="#about"><i class="fa-solid fa-info-circle"></i> Naga Baro</a>
+            <a href="#contact"><i class="fa-solid fa-phone"></i> La Xidhiidh</a>
+        </nav>
+
+        <div class="menu-icon" id="menuIcon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+  
+
+    <div class="container" id="products">
+        <h2><i class="fa-solid fa-shop"></i> Dooro Nooca Hilibka & KG</h2>
+
+        <div class="product-grid" id="productGrid">
+            
+            <div class="product-card" data-meat="Adhi" data-price="60000">
+                <div class="product-image"><i class="fa-solid fa-sheep"></i></div>
+                <div class="product-details">
+                    <h3>Hilibka Adhiga</h3>
+                    <p class="price-tag"><i class="fa-solid fa-tag"></i> 60,000 SLSH / KG</p>
+                    <div class="kg-input-group">
+                        <button class="kg-control-btn minus-btn" data-meat="Adhi" data-action="minus" disabled><i class="fa-solid fa-minus"></i></button>
+                        <input type="number" id="kgAdhi" min="0" value="0" data-meat="Adhi" oninput="calculatePrice(true)">
+                        <button class="kg-control-btn plus-btn" data-meat="Adhi" data-action="plus"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-meat="Geel" data-price="50000">
+                <div class="product-image"><i class="fa-solid fa-hippo"></i></div>
+                <div class="product-details">
+                    <h3>Hilibka Geela</h3>
+                    <p class="price-tag"><i class="fa-solid fa-tag"></i> 50,000 SLSH / KG</p>
+                    <div class="kg-input-group">
+                        <button class="kg-control-btn minus-btn" data-meat="Geel" data-action="minus" disabled><i class="fa-solid fa-minus"></i></button>
+                        <input type="number" id="kgGeel" min="0" value="0" data-meat="Geel" oninput="calculatePrice(true)">
+                        <button class="kg-control-btn plus-btn" data-meat="Geel" data-action="plus"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-meat="Lo'" data-price="45000">
+                <div class="product-image"><i class="fa-solid fa-cow"></i></div>
+                <div class="product-details">
+                    <h3>Hilibka Lo'da</h3>
+                    <p class="price-tag"><i class="fa-solid fa-tag"></i> 45,000 SLSH / KG</p>
+                    <div class="kg-input-group">
+                        <button class="kg-control-btn minus-btn" data-meat="Lo'" data-action="minus" disabled><i class="fa-solid fa-minus"></i></button>
+                        <input type="number" id="kgLo" min="0" value="0" data-meat="Lo'" oninput="calculatePrice(true)">
+                        <button class="kg-control-btn plus-btn" data-meat="Lo'" data-action="plus"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+
+           </div>
+
+           <div class="summary-card" id="summaryCard">
+            <h3>Wadarta Dalabkaaga Guud</h3>
+            <strong id="totalPrice">SLSH</strong>
+            <div class="summary-details">
+                <p>Dalabkaaga Guud: <span id="orderSummaryText"></span></p>
+            </div>
+            <a href="#" id="orderLo" class="order-now-btn">
+                        <i class="fa-brands fa-whatsapp"></i> Dalbo Hadaba doorashadaada
+                    </a>
+        </div>  
+    </div>
+  
+
+                    
+    <div class="services-container">
+     <h3><i class="fa-solid fa-concierge-bell"></i> Adeegyadayada Muhiimka ah</h3>
+        <div class="service-grid">
+            <div class="service-item"><i class="fa-solid fa-utensils"></i> Diyaarinta Hilibka</div>
+            <div class="service-item2"><i class="fa-solid fa-truck-fast"></i> Gaarsiinta Degdega ah</div>
+            <div class="service-item"><i class="fa-solid fa-shield-halved"></i> Hilib Nadiif ah</div>
+        </div>
+    </div>
+
+
+    <div class="customer-container">
+         <h3><i class="fa-solid fa-concierge-bell"></i> Macaamiishayada</h3>
+    
+         <div class="customer-grid">  
+          <div class="customer-logo"> <img src="./images/AMAANO.png" width="40px" height="20px"> Amaano Boarding</div>
+           <div class="customer-logo"> <img src="./images/gadhle desing.png" width="40px" height="20px"> Gadhle Design</div>
+            <div class="customer-logo"> <img src="./images/pran_logo.jpg" width="40px" height="20px"> Bran Mango</div>
+             <div class="customer-logo"> <img src="./images/Tesla-Emblem.png" width="40px" height="20px"> Tesla</div>
+              <div class="customer-logo"> <img src="./images/Untitled-2.png" width="40px" height="20px"> Dhaqandoon</div>
+         </div>
+      </div>
+
+
+    
+    <section id="photos" style="text-align: center;">
+        <h3><i class="fa-solid fa-images"></i> Sawirrada Hilibkayaga</h3>
+        <div class="photo-container">
+            <img src="https://as1.ftcdn.net/v2/jpg/06/63/26/84/1000_F_663268439_EBqJFmo3FIjTH7LQXqiYJVZ4wBQQWM0m.jpg" alt="Hilibka 1" >
+            <img src="https://canyoumicrowavethis.com/wp-content/uploads/2022/10/can-you-cook-steak-in-the-microwave-featured.jpg" alt="Hilibka 2" >
+            <img src="https://img.freepik.com/premium-photo/raw-beef-steak-with-rosemary-salt-pepper-dark-background_1102202-1429.jpg" alt="Hilibka 3">
+            <img src="https://tse1.explicit.bing.net/th/id/OIP.KBoX85Fm4JqtUkiJexO8OgAAAA" alt="Hilibka 4">
+        </div>
+    </section>
+
+    <section id="about">
+        <h3><i class="fa-solid fa-circle-info"></i> Naga Baro (About Us)</h3>
+        <p><i class="fa-solid fa-building"></i> Hargaysa Meat Company waa shirkad ku takhasustay farsamaynta iyo qaybinta hilibka xoolaha noocyadiisa kala duwan ee ku nool Somaliland. Waxaan ballan qaadaynaa hilib tayo leh, nadaafad dhammaystiran, iyo adeeg gaarsiin degdeg ah.</p>
+    </section>
+    
+    <section id="contact">
+        <h3><i class="fa-solid fa-headset"></i> La Xidhiidh (Contact)</h3>
+        <p>Wixii su'aalo ama dalabyo gaar ah ah, fadlan nala soo xidhiidh:</p>
+        <ul>
+            <li><i class="fa-solid fa-phone"></i> <strong>Taleefanka Dalabka:</strong> <a href="tel:+252634444555">+252 63 4444555</a></li>
+            <li><i class="fa-brands fa-whatsapp"></i> <strong>WhatsApp:</strong> <a href="https://wa.me/252634444555">WhatsApp-ka naga soo xidhiidh</a></li>
+            <li><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> info@hmc.com</li>
+            <li><i class="fa-solid fa-location-dot"></i> <strong>Address:</strong> Hargaysa, Somaliland | Sha'ab Area</li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-about">
+                <img src="hmc.png" width="30px" alt="HMC Logo">
+                <h3><i class="fa-solid fa-drumstick-bite"></i> Hargaysa Meat Company</h3>
+                <p>Hargaysa Meat Company waa shirkad hilibka ka shaqaysa oo ku taalla Hargeysa.</p>
+            </div>
+            <div class="sec-nav">
+                <h4><i class="fa-solid fa-link"></i> Links Degdeg ah</h4>
+                <a href="#about"><i class="fa-solid fa-user"></i> Naga Baro</a>
+                <a href="#contact"><i class="fa-solid fa-envelope"></i> La Xidhiidh</a>
+                <a href="#products"><i class="fa-solid fa-cart-shopping"></i> Dalbo</a>
+            </div>
+            <div class="address">
+                <h4><i class="fa-solid fa-map-location-dot"></i> Xogta Goobta</h4>
+                <p><i class="fa-solid fa-map-pin"></i> Hargaysa/Somaliland</p>
+                <p><i class="fa-solid fa-location-arrow"></i> Sha'ab Area</p>
+                <p><i class="fa-solid fa-globe"></i> Website: hmc.com</p>
+            </div>
+        </div>
+        <div class="lowest-footer">
+            <p><i class="fa-regular fa-copyright"></i> 2026 Hargaysa Meat Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
