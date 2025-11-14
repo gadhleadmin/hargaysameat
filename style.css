@@ -373,6 +373,10 @@ footer {
 
 /* ==== RESPONSIVE ==== */
 @media (max-width: 768px) {
+
+  #body{
+   width: 768px;
+  }
   .nav-menu {
     display: none;
     flex-direction: column;
@@ -396,6 +400,19 @@ footer {
   .logo h1 {
     font-size: 1rem;
   }
+
+    .customer-grid {
+    gap: 30px;         /* gap-ka yarayn */
+    animation-duration: 22s; /* scroll-ka u deji mobile */
+  }
+
+  .customer-logo {
+    min-width: 120px;
+    padding: 12px 18px;
+    font-size: 0.9rem;
+  }
+
+  
 }
 
 @media (max-width: 480px) {
@@ -406,5 +423,17 @@ footer {
   .order-now-btn {
     font-size: 0.9rem;
     padding: 6px 12px;
+  }
+
+  
+  .customer-grid {
+    gap: 20px;       /* gap aad u yar mobile */
+    animation-duration: 25s;
+  }
+
+  .customer-logo {
+    min-width: 100px;
+    padding: 10px 15px;
+    font-size: 0.85rem;
   }
 }
