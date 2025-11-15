@@ -21,18 +21,25 @@ body {
   font-family: "Poppins", sans-serif;
 
   background:
-    linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.15)), 
+    linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4), white), 
     url('hhh.jpg') center/cover no-repeat;
 
   background-attachment: fixed; /* si uu sawirka u sii joogo */
 }
 
 
-h2, h3, h4 {
+h3, h4 {
   color: var(--primary);
   margin-bottom: 15px;
   text-align: center;
 }
+
+h2 {
+  color: var(--accent);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 
 /* ==== HEADER ==== */
 header {
